@@ -1,3 +1,13 @@
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: block;
+}
+
+p {
+  display: block;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -60,12 +70,76 @@ div {
 
 .column.large {
   width: 630px;
+  display: flex;
 }
 
 .column.medium {
   width: 300px;
+  display: flex;
 }
 
 .column.small {
   width: 240px;
+  display: flex;
+}
+
+.image-content {
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lead-story .image-content {
+  background-image: url(resources\images\img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px
+  text-align: left;
+}
+
+.lead-story {
+
+}
+
+.text-content {
+
+}
+
+.fall-cancelled .image-content {
+  background-image: url(.resources\images\img-story-2.png);
+}
+
+.pop-culture.image-content {
+  background-image: url(.resources\images\img-story-3.png);
+}
+
+.cat-ceo.image-content {
+  background-image: url(.resources\images\img-story-1.png);
+}
+
+.story {
+
+}
+
+.news-bites {
+
+}
+
+.bite {
+
+}
+
+span {
+
+}
+
+.narrative {
+
 }
